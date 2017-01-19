@@ -1,0 +1,27 @@
+	/* Connectivity State */
+	switch (cmStatus) {
+		case "OTHER":
+		case "NOT_READY":
+		case "NOT_SYNCHRONIZED":
+		case "PHY_SYNCHRONIZED":
+		case "DS_TOPOLOGY_RESOLUTION_IN_PROGRESS":
+		case "US_PARAMETERS_ACQUIRED":
+		case "RANGING_IN_PROGRESS":
+		case "RANGING_COMPLETE":
+		case "EAE_IN_PROGRESS":
+		case "DHCPV4_IN_PROGRESS":
+		case "DHCPV6_IN_PROGRESS":
+		case "DHCPV4_COMPLETE":
+		case "DHCPV6_COMPLETE":
+		case "TOD_ESTABLISHED":
+		case "SECURITY_ESTABLISHED":
+		case "CONFIG_FILE_DOWNLOAD_COMPLETE":
+		case "REGISTRATION_IN_PROGRESS":
+		case "REGISTRATION_COMPLETE":
+		case "BPI_INIT":
+		case "OPERATIONAL":
+		case "ACCESS_DENIED":
+		case "FORWARDING_DISABLED":
+		case "RF_MUTE_ALL":
+		default:
+	}
