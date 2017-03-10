@@ -44,6 +44,6 @@ configure.scan -> configure.ac
 aclocal
 autoconf
 autoheader
-automake
-configure
+automake --add-missing
+/configure --prefix=`pwd`/bin
 make
