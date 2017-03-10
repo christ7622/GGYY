@@ -39,8 +39,11 @@ $(shell COMMAND)
 EX: OBJS=$(patsubst %.c,%.o,$(shell ls *.c))   // $(warning $(patsubst %.c,%.o,$(shell ls *.c)))
 --------------------------------------
 
-autoreconf --install
-
-
-
-
+autoscan
+configure.scan -> configure.ac
+aclocal
+autoconf
+autoheader
+automake
+configure
+make
