@@ -45,5 +45,5 @@ aclocal
 autoconf
 autoheader
 automake --add-missing
-/configure --prefix=`pwd`/bin
+./configure --prefix=`pwd`/bin
 make
