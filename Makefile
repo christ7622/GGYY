@@ -19,6 +19,7 @@ $<: first of prerequisite
         gcc -o $@ $<
                    ↑
 $?: the prerequisites which newer then target
+$!: shows last process ID which has started in background.
 --------------------------------------
 
 VAR1 =  VAR2 (assign address)
