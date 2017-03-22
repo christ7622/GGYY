@@ -1,0 +1,1 @@
+ RDEPENDS_${PN} = "foo (>= 1.2)"
