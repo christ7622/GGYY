@@ -1,1 +1,7 @@
- RDEPENDS_${PN} = "foo (>= 1.2)"
+
+RDEPENDS_${PN}-dev += "perl"    
+    In the example, the development package depends on the perl package. 
+    Thus, the RDEPENDS variable has the ${PN}-dev package name as part of the variable.
+
+RDEPENDS_${PN} = "<package> (<operator> <version>)"
+    ex: RDEPENDS_${PN} = "foo (>= 1.2)"
