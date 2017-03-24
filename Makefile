@@ -40,6 +40,10 @@ $(shell COMMAND)
     ex: $(warning $(shell pwd))
     
 EX: OBJS=$(patsubst %.c,%.o,$(shell ls *.c))   // $(warning $(patsubst %.c,%.o,$(shell ls *.c)))
+
+get all *.c list
+$(wildcard *.c)
+    ex:$(patsubst %.c,%.o,$(wildcard *.c))
 --------------------------------------
 
 autoscan
