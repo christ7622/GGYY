@@ -29,3 +29,7 @@ sudo apt-get install docker-ce
   
 # Verify that Docker CE is installed correctly by running the hello-world image.
 sudo docker run hello-world
+
+
+# 如果不想要再用 sudo 的話可以將使用者加入 docker group
+sudo usermod -aG docker $(whoami)
