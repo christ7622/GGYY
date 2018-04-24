@@ -1,0 +1,5 @@
+#using a machine localhost:8889 to create a tunnel to remote machine localhost:8888
+ssh -L localhost:8889:localhost:8888 user@ip
+
+# observe the used port
+netstat -tupln 
