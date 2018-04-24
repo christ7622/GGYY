@@ -12,7 +12,12 @@ python -m ipykernel install --user --name=venv
 
 # screen
 terminating: ctrl + D
+
 detached: ctrl + A and ctrl + D
+
 resume: screen -r
+
 list: screen -list
+
 help: ctrl + A and ?
+
