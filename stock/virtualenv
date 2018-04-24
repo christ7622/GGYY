@@ -1,0 +1,2 @@
+# Create a jupyter kernel with virtalenv python
+python -m ipykernel install --user --name=venv
