@@ -60,6 +60,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 GRUB_CMDLINE_LINUX_DEFAULT="text"
 
 sudo update-grub
+
 sudo reboot
 
 
@@ -197,6 +198,7 @@ git show --pretty="" --name-only 6db514f
 
 # 產生從V1到現在所有的patch
 git tag v1
+
 git format-patch v1..HEAD
 
 # 修改commit message
@@ -223,6 +225,7 @@ git reset -- filename  or  git reset HEAD filename
 
 # 顯示被忽略的檔案
 git status --ignored -s
+
 git ls-files --others -i --exclude-standard
 
 
