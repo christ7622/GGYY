@@ -1,0 +1,2 @@
+# display current folder belong to which repo
+git config --get remote.origin.url
